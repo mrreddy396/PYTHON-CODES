@@ -1,0 +1,142 @@
+
+**************PROPERTY POSTMAN URLS AND DATA********************
+PUT METHOD(UPDATE)
+http://localhost:8400/updateProperty/1
+ {
+        "propertyId": 6,
+        "ownerId": 7,
+        "propertyType": "villas",
+        "availability": "available",
+        "address": "ammerpet",
+        "city": "goa",
+        "feature": "garden-facing",
+        "description": "3.6 kms away",
+        "ratings": 4.2,
+        "images": "https://images.adsttc.com/media/images/5cf1/f1ec/284d/d14f/3800/0262/newsletter/CASA_FRENTE_MAR_2020.jpg?1559359971"
+    }
+-----------------------------------------
+GET PROPERTY METHOD
+http://localhost:8400/property/1
+-------------------------------------------
+GET ALL PROPERTIES METHOD
+http://localhost:8300/properties
+--------------------------------------------
+GET ALL PROPERTIES BY RATING
+http://localhost:8400/sortPropertiesByRating
+--------------------------------------------
+POST METHOD FOR ADDING PROPERTY
+http://localhost:8400/addingProperty
+
+ {
+        "propertyId": 6,
+        "ownerId": 7,
+        "propertyType": "villas",
+        "availability": "available",
+        "address": "ammerpet",
+        "city": "goa",
+        "feature": "garden-facing",
+        "description": "3.6 kms away",
+        "ratings": 4.2,
+        "images": "https://images.adsttc.com/media/images/5cf1/f1ec/284d/d14f/3800/0262/newsletter/CASA_FRENTE_MAR_2020.jpg?1559359971"
+    }
+--------------------------------------------
+DELETE METHOD FOR DELETING PROPRTY
+http://localhost:8400/DeleteProperty/12
+--------------------------------------------
+***************ADMIN URLS AND DATA*********************
+
+GETING ALL THE OWNERS(GET METHOD)
+http://localhost:8400/api/admin/owner/getAllOwners
+--------------------------------------------
+GET OWNER BY ID(GET METHOD)
+http://localhost:8400/api/admin/owner/getOwnerById/4
+--------------------------------------------
+DELETE OWNER BY ID(DELETE METHOD)
+http://localhost:8400/api/admin/owner/deleteOwnerById/6
+--------------------------------------------
+UPDATE OWNER(PUT METHOD)
+http://localhost:8400/api/admin/owner/updateOwner/5
+--------------------------------------------
+ADD OWNER BY ADMIN(POST METHOD)
+http://localhost:8400/api/admin/owner/addOwner
+{
+    "ownerName": "kaveri",
+    "ownerPassword": "kaveri5545@",
+    "ownerEmail": "kaveri@gmail.com"
+}
+--------------------------------------------
+*****************OWNER URLS****************************
+REGISTER(POST METHOD)
+http://localhost:8400/api/owner/register
+{
+   "ownerName": "kaveri reddy",
+    "ownerPassword": "kaverireddy5545@",
+    "ownerEmail": "kaverireddy@gmail.com"
+}
+--------------------------------------------
+LOGIN (GET METHOD)
+http://localhost:8400/api/ownerlogin/ownerName/ownerPassword
+--------------------------------------------
+**************************USER URLS**********************
+REGISTER(POST METHOD)
+http://localhost:8400/api/user/register
+
+{
+   
+    "userName": "ratna",
+    "userPassword": "ratna8888@",
+    "userEmail": "ratna@gmail.com"
+}
+--------------------------------------------
+LOGIN (GET METHOD)
+http://localhost:8400/api/userlogin/userName/userPassword
+--------------------------------------------
+
+**********************RESERVATION URLS********************************
+----------------------------------------------------------------------
+ADD TO RESERVED(POST METHOD)
+http://localhost:8400/addToReserved
+
+    {
+        "propertyId": 2,
+        "conformation": "pending",
+        "userId": 1,
+        "checkIndate": "2023-07-13T18:30:00.000+00:00",
+        "checkOutdate": "2023-07-18T18:30:00.000+00:00"
+      
+    }
+----------------------------------------------------------------------
+ALL RESERVATION DETAILS(GET METHOD)
+http://localhost:8400/reservations
+----------------------------------------------------------------------
+GET RESERVATION DETAILS BY RESERVATION ID(GET METHOD)
+http://localhost:8400/reservation/searchInReserved/4
+----------------------------------------------------------------------
+UPDATE RESERVATION DETAILS BY RESERVATION ID(PUT METHOD)
+http://localhost:8400/reservation/updateToReserved/1
+  {
+        "propertyId": 2,
+        "conformation": "pending",
+        "userId": 1,
+        "checkIndate": "2023-07-13T18:30:00.000+00:00",
+        "checkOutdate": "2023-07-18T18:30:00.000+00:00"
+      
+    }
+----------------------------------------------------------------------
+DELETE RESERVATION DETAILS BY RESERVATION ID(DELETE METHOD)
+
+http://localhost:8400/reservation/deleteFromReservedById/1
+
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
