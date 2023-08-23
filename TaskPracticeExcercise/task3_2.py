@@ -14,5 +14,5 @@ print("Maximum value:", max_value)
 i = []
 for num in numbers:
     if num > 10:
-        a = i.append(num)
+        i.append(num)
 print("Numbers greater than 10:", i)

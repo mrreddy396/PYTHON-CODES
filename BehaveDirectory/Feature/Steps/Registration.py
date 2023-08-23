@@ -1,7 +1,7 @@
 import time
 
 from behave import *
-from selenium.webdriver import Keys
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 

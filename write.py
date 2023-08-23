@@ -1,4 +1,4 @@
 
 
-with open("write.TXT","a") as file:
-    file.write("and java \n")
+with open("writebinary.TXT","a") as file:
+    file.write("Welcome to python programming and java ")
