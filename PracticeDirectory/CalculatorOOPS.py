@@ -21,6 +21,7 @@ print("Enter Number 1 :")
 num1 = float(input())
 print("Enter Number 2 :")
 num2 = float(input())
+print("outputs are")
 
 print("Addition:", calculator.add(num1, num2))
 print("Subtraction:", calculator.subtract(num1, num2))
