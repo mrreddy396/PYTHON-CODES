@@ -11,3 +11,12 @@ def setup(request):
     yield
     print("test ended")
     driver.close()
+@pytest.fixture()
+def greenkartsetup(request):
+    driver = webdriver.Chrome()
+    driver.get("https://rahulshettyacademy.com/seleniumPractise/#/")
+    driver.maximize_window()
+    request.cls.driver = driver
+    yield
+    print("test ended")
+    driver.close()
