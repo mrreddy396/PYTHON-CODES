@@ -1,0 +1,236 @@
+2023-09-07 16:21:35,423 :tests.test_E4 :An error occurred: Message: invalid selector: Unable to locate an element with the xpath expression (//button[@type='button']9) because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[@type='button']9)' is not a valid XPath expression.
+  (Session info: chrome=116.0.5845.141); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F1E152A2+57122]
+	(No symbol) [0x00007FF7F1D8EA92]
+	(No symbol) [0x00007FF7F1C5E3AB]
+	(No symbol) [0x00007FF7F1C62382]
+	(No symbol) [0x00007FF7F1C63D2F]
+	(No symbol) [0x00007FF7F1C63E20]
+	(No symbol) [0x00007FF7F1C979B1]
+	(No symbol) [0x00007FF7F1C97E2C]
+	(No symbol) [0x00007FF7F1CD0B67]
+	(No symbol) [0x00007FF7F1CB701F]
+	(No symbol) [0x00007FF7F1CCEB82]
+	(No symbol) [0x00007FF7F1CB6DB3]
+	(No symbol) [0x00007FF7F1C8D2B1]
+	(No symbol) [0x00007FF7F1C8E494]
+	GetHandleVerifier [0x00007FF7F20BEF82+2849794]
+	GetHandleVerifier [0x00007FF7F2111D24+3189156]
+	GetHandleVerifier [0x00007FF7F210ACAF+3160367]
+	GetHandleVerifier [0x00007FF7F1EA6D06+653702]
+	(No symbol) [0x00007FF7F1D9A208]
+	(No symbol) [0x00007FF7F1D962C4]
+	(No symbol) [0x00007FF7F1D963F6]
+	(No symbol) [0x00007FF7F1D867A3]
+	BaseThreadInitThunk [0x00007FFA8FB826AD+29]
+	RtlUserThreadStart [0x00007FFA9044AA68+40]
+
+2023-09-07 16:22:13,828 :pageObjects.Universal :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Already exists']"}
+  (Session info: chrome=116.0.5845.141); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F1E152A2+57122]
+	(No symbol) [0x00007FF7F1D8EA92]
+	(No symbol) [0x00007FF7F1C5E3AB]
+	(No symbol) [0x00007FF7F1C97D3E]
+	(No symbol) [0x00007FF7F1C97E2C]
+	(No symbol) [0x00007FF7F1CD0B67]
+	(No symbol) [0x00007FF7F1CB701F]
+	(No symbol) [0x00007FF7F1CCEB82]
+	(No symbol) [0x00007FF7F1CB6DB3]
+	(No symbol) [0x00007FF7F1C8D2B1]
+	(No symbol) [0x00007FF7F1C8E494]
+	GetHandleVerifier [0x00007FF7F20BEF82+2849794]
+	GetHandleVerifier [0x00007FF7F2111D24+3189156]
+	GetHandleVerifier [0x00007FF7F210ACAF+3160367]
+	GetHandleVerifier [0x00007FF7F1EA6D06+653702]
+	(No symbol) [0x00007FF7F1D9A208]
+	(No symbol) [0x00007FF7F1D962C4]
+	(No symbol) [0x00007FF7F1D963F6]
+	(No symbol) [0x00007FF7F1D867A3]
+	BaseThreadInitThunk [0x00007FFA8FB826AD+29]
+	RtlUserThreadStart [0x00007FFA9044AA68+40]
+
+2023-09-07 16:22:13,828 :pageObjects.Universal :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Already exists']"}
+  (Session info: chrome=116.0.5845.141); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F1E152A2+57122]
+	(No symbol) [0x00007FF7F1D8EA92]
+	(No symbol) [0x00007FF7F1C5E3AB]
+	(No symbol) [0x00007FF7F1C97D3E]
+	(No symbol) [0x00007FF7F1C97E2C]
+	(No symbol) [0x00007FF7F1CD0B67]
+	(No symbol) [0x00007FF7F1CB701F]
+	(No symbol) [0x00007FF7F1CCEB82]
+	(No symbol) [0x00007FF7F1CB6DB3]
+	(No symbol) [0x00007FF7F1C8D2B1]
+	(No symbol) [0x00007FF7F1C8E494]
+	GetHandleVerifier [0x00007FF7F20BEF82+2849794]
+	GetHandleVerifier [0x00007FF7F2111D24+3189156]
+	GetHandleVerifier [0x00007FF7F210ACAF+3160367]
+	GetHandleVerifier [0x00007FF7F1EA6D06+653702]
+	(No symbol) [0x00007FF7F1D9A208]
+	(No symbol) [0x00007FF7F1D962C4]
+	(No symbol) [0x00007FF7F1D963F6]
+	(No symbol) [0x00007FF7F1D867A3]
+	BaseThreadInitThunk [0x00007FFA8FB826AD+29]
+	RtlUserThreadStart [0x00007FFA9044AA68+40]
+
+2023-09-07 16:22:24,127 :pageObjects.Universal :User details has been successfully Added
+2023-09-07 16:22:24,127 :pageObjects.Universal :User details has been successfully Added
+2023-09-07 16:22:24,614 :pageObjects.Universal :Record found successfully
+2023-09-07 16:22:24,614 :pageObjects.Universal :Record found successfully
+2023-09-07 16:57:05,800 :pageObjects.Universal :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Already exists']"}
+  (Session info: chrome=116.0.5845.141); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CDD552A2+57122]
+	(No symbol) [0x00007FF7CDCCEA92]
+	(No symbol) [0x00007FF7CDB9E3AB]
+	(No symbol) [0x00007FF7CDBD7D3E]
+	(No symbol) [0x00007FF7CDBD7E2C]
+	(No symbol) [0x00007FF7CDC10B67]
+	(No symbol) [0x00007FF7CDBF701F]
+	(No symbol) [0x00007FF7CDC0EB82]
+	(No symbol) [0x00007FF7CDBF6DB3]
+	(No symbol) [0x00007FF7CDBCD2B1]
+	(No symbol) [0x00007FF7CDBCE494]
+	GetHandleVerifier [0x00007FF7CDFFEF82+2849794]
+	GetHandleVerifier [0x00007FF7CE051D24+3189156]
+	GetHandleVerifier [0x00007FF7CE04ACAF+3160367]
+	GetHandleVerifier [0x00007FF7CDDE6D06+653702]
+	(No symbol) [0x00007FF7CDCDA208]
+	(No symbol) [0x00007FF7CDCD62C4]
+	(No symbol) [0x00007FF7CDCD63F6]
+	(No symbol) [0x00007FF7CDCC67A3]
+	BaseThreadInitThunk [0x00007FFA8FB826AD+29]
+	RtlUserThreadStart [0x00007FFA9044AA68+40]
+
+2023-09-07 16:57:05,800 :pageObjects.Universal :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Already exists']"}
+  (Session info: chrome=116.0.5845.141); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CDD552A2+57122]
+	(No symbol) [0x00007FF7CDCCEA92]
+	(No symbol) [0x00007FF7CDB9E3AB]
+	(No symbol) [0x00007FF7CDBD7D3E]
+	(No symbol) [0x00007FF7CDBD7E2C]
+	(No symbol) [0x00007FF7CDC10B67]
+	(No symbol) [0x00007FF7CDBF701F]
+	(No symbol) [0x00007FF7CDC0EB82]
+	(No symbol) [0x00007FF7CDBF6DB3]
+	(No symbol) [0x00007FF7CDBCD2B1]
+	(No symbol) [0x00007FF7CDBCE494]
+	GetHandleVerifier [0x00007FF7CDFFEF82+2849794]
+	GetHandleVerifier [0x00007FF7CE051D24+3189156]
+	GetHandleVerifier [0x00007FF7CE04ACAF+3160367]
+	GetHandleVerifier [0x00007FF7CDDE6D06+653702]
+	(No symbol) [0x00007FF7CDCDA208]
+	(No symbol) [0x00007FF7CDCD62C4]
+	(No symbol) [0x00007FF7CDCD63F6]
+	(No symbol) [0x00007FF7CDCC67A3]
+	BaseThreadInitThunk [0x00007FFA8FB826AD+29]
+	RtlUserThreadStart [0x00007FFA9044AA68+40]
+
+2023-09-07 16:57:16,117 :pageObjects.Universal :User details has been successfully Added
+2023-09-07 16:57:16,117 :pageObjects.Universal :User details has been successfully Added
+2023-09-07 16:57:16,955 :pageObjects.Universal :Record found successfully
+2023-09-07 16:57:16,955 :pageObjects.Universal :Record found successfully
+2023-09-12 11:18:44,293 :tests.test_E1 :I am in home page
+2023-09-12 11:18:45,002 :tests.test_E1 :submitted form
+2023-09-12 11:18:45,393 :tests.test_E1 :I am in Checkout page
+2023-09-12 11:18:45,779 :tests.test_E1 :I am in Confirmation page
+2023-09-12 11:20:07,831 :pageObjects.Universal :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Already exists']"}
+  (Session info: chrome=116.0.5845.180); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E21552A2+57122]
+	(No symbol) [0x00007FF6E20CEA92]
+	(No symbol) [0x00007FF6E1F9E3AB]
+	(No symbol) [0x00007FF6E1FD7D3E]
+	(No symbol) [0x00007FF6E1FD7E2C]
+	(No symbol) [0x00007FF6E2010B67]
+	(No symbol) [0x00007FF6E1FF701F]
+	(No symbol) [0x00007FF6E200EB82]
+	(No symbol) [0x00007FF6E1FF6DB3]
+	(No symbol) [0x00007FF6E1FCD2B1]
+	(No symbol) [0x00007FF6E1FCE494]
+	GetHandleVerifier [0x00007FF6E23FEF82+2849794]
+	GetHandleVerifier [0x00007FF6E2451D24+3189156]
+	GetHandleVerifier [0x00007FF6E244ACAF+3160367]
+	GetHandleVerifier [0x00007FF6E21E6D06+653702]
+	(No symbol) [0x00007FF6E20DA208]
+	(No symbol) [0x00007FF6E20D62C4]
+	(No symbol) [0x00007FF6E20D63F6]
+	(No symbol) [0x00007FF6E20C67A3]
+	BaseThreadInitThunk [0x00007FFCF56C26AD+29]
+	RtlUserThreadStart [0x00007FFCF688AA68+40]
+
+2023-09-12 11:20:07,831 :pageObjects.Universal :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Already exists']"}
+  (Session info: chrome=116.0.5845.180); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E21552A2+57122]
+	(No symbol) [0x00007FF6E20CEA92]
+	(No symbol) [0x00007FF6E1F9E3AB]
+	(No symbol) [0x00007FF6E1FD7D3E]
+	(No symbol) [0x00007FF6E1FD7E2C]
+	(No symbol) [0x00007FF6E2010B67]
+	(No symbol) [0x00007FF6E1FF701F]
+	(No symbol) [0x00007FF6E200EB82]
+	(No symbol) [0x00007FF6E1FF6DB3]
+	(No symbol) [0x00007FF6E1FCD2B1]
+	(No symbol) [0x00007FF6E1FCE494]
+	GetHandleVerifier [0x00007FF6E23FEF82+2849794]
+	GetHandleVerifier [0x00007FF6E2451D24+3189156]
+	GetHandleVerifier [0x00007FF6E244ACAF+3160367]
+	GetHandleVerifier [0x00007FF6E21E6D06+653702]
+	(No symbol) [0x00007FF6E20DA208]
+	(No symbol) [0x00007FF6E20D62C4]
+	(No symbol) [0x00007FF6E20D63F6]
+	(No symbol) [0x00007FF6E20C67A3]
+	BaseThreadInitThunk [0x00007FFCF56C26AD+29]
+	RtlUserThreadStart [0x00007FFCF688AA68+40]
+
+2023-09-12 11:20:18,355 :pageObjects.Universal :User details has been successfully Added
+2023-09-12 11:20:18,355 :pageObjects.Universal :User details has been successfully Added
+2023-09-12 11:20:19,522 :pageObjects.Universal :Record found successfully
+2023-09-12 11:20:19,522 :pageObjects.Universal :Record found successfully
+2023-09-12 11:20:58,531 :tests.test_E4 :An error occurred: Message: invalid selector: Unable to locate an element with the xpath expression (//button[@type='button']9) because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[@type='button']9)' is not a valid XPath expression.
+  (Session info: chrome=116.0.5845.180); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E21552A2+57122]
+	(No symbol) [0x00007FF6E20CEA92]
+	(No symbol) [0x00007FF6E1F9E3AB]
+	(No symbol) [0x00007FF6E1FA2382]
+	(No symbol) [0x00007FF6E1FA3D2F]
+	(No symbol) [0x00007FF6E1FA3E20]
+	(No symbol) [0x00007FF6E1FD79B1]
+	(No symbol) [0x00007FF6E1FD7E2C]
+	(No symbol) [0x00007FF6E2010B67]
+	(No symbol) [0x00007FF6E1FF701F]
+	(No symbol) [0x00007FF6E200EB82]
+	(No symbol) [0x00007FF6E1FF6DB3]
+	(No symbol) [0x00007FF6E1FCD2B1]
+	(No symbol) [0x00007FF6E1FCE494]
+	GetHandleVerifier [0x00007FF6E23FEF82+2849794]
+	GetHandleVerifier [0x00007FF6E2451D24+3189156]
+	GetHandleVerifier [0x00007FF6E244ACAF+3160367]
+	GetHandleVerifier [0x00007FF6E21E6D06+653702]
+	(No symbol) [0x00007FF6E20DA208]
+	(No symbol) [0x00007FF6E20D62C4]
+	(No symbol) [0x00007FF6E20D63F6]
+	(No symbol) [0x00007FF6E20C67A3]
+	BaseThreadInitThunk [0x00007FFCF56C26AD+29]
+	RtlUserThreadStart [0x00007FFCF688AA68+40]
+
+2023-09-12 11:21:29,132 :tests.test_E1 :I am in home page
+2023-09-12 11:21:29,786 :tests.test_E1 :submitted form
+2023-09-12 11:21:30,167 :tests.test_E1 :I am in Checkout page
+2023-09-12 11:21:30,454 :tests.test_E1 :I am in Confirmation page
+2023-09-12 11:23:20,915 :tests.test_E1 :I am in home page
+2023-09-12 11:23:21,728 :tests.test_E1 :submitted form
+2023-09-12 11:23:22,140 :tests.test_E1 :I am in Checkout page
+2023-09-12 11:23:22,441 :tests.test_E1 :I am in Confirmation page
+2023-09-12 11:23:43,459 :tests.test_E1 :I am in home page
+2023-09-12 11:23:44,100 :tests.test_E1 :submitted form
+2023-09-12 11:23:44,652 :tests.test_E1 :I am in Checkout page
+2023-09-12 11:23:44,950 :tests.test_E1 :I am in Confirmation page
